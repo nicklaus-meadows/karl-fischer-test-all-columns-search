@@ -1,0 +1,126 @@
+
+      table {
+        border-collapse: collapse;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+        
+      }
+
+      /* table tr:nth-child(even) td {
+        background-color: #dbdbdb;
+      } */
+
+      table td:not(.sa, .aa, .pa, .ha, .hfa, .hydro, .na) {
+        border: thin solid black;
+        padding: 20px 20px 20px 10px;
+      }
+
+      tr:hover {
+        color: #0047ab !important;
+        transition: all 0.4s ease 0s;
+      }
+
+      tr a:hover {
+           background-color: white;
+           color: rgb(20, 64, 114);
+           border: 1px solid black;
+           transition: all 0.4s ease 0s;
+          
+      }
+
+      button {
+        background-color: rgb(20, 64, 114);
+        border-radius: 10px;
+        font-size: large;
+        padding: 7px;
+        color: white;
+      }
+
+      tr td a {
+        background-color: rgb(20, 64, 114);
+        border-radius: 5px;
+        font-size: large;
+        padding: 7px;
+        color: white;
+      }
+
+      td:nth-child(3) {
+        max-width: 375px;         
+      }
+      
+
+      thead th {
+        background-color: rgb(20, 64, 114);
+        color: white;
+        padding: 15px;
+        border: 1px solid black;
+      }
+
+      tr:hover {
+        color: #0047ab !important;
+        transition: all 0.4s ease 0s;
+      }
+
+      .headerLevel {
+        background-color: rgb(20, 64, 114);
+        color: white;
+      }
+
+      #myInput {
+        background-image: url("/css/searchicon.png"); /* Add a search icon to input */
+        display: flex;
+        width: 45.8%;
+        text-align: center;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-repeat: no-repeat; /* Do not repeat the icon image */
+        /* Full-width */
+        font-size: 16px; /* Increase font-size */
+        padding: 10px 10px 10px 10px; /* Add some padding */
+        border: thin solid darkblue;
+        margin-bottom: 12px; /* Add some space below the input */
+        border-radius: 5px; /* top search bar only */
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(20, 64, 114); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+        margin-top: 25px;
+      }
+
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+
+      #searchBox {
+        box-sizing: border-box;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: large;
+        padding: 20px 120px 20px 120px;
+        border: thin solid black;
+        margin-bottom: 15px;
+        display: flex;
+        border-radius: 4px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-overflow: visible !important;
+      }
+
+    
